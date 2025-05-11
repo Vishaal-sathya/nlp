@@ -1,0 +1,8 @@
+# Requirements for NLP documentation model testing
+nltk>=3.6.0
+rouge-score>=0.1.2
+numpy>=1.19.0
+transformers>=4.18.0
+torch>=1.10.0
+tiktoken>=0.3.0
+sentencepiece>=0.1.97

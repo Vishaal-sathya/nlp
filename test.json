@@ -1,0 +1,30 @@
+{
+    "functions": [
+      {
+        "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n - 1)",
+        "provided_docstring": "Calculate the factorial value of n.",
+        "generated_docstring": "Return the factorial of n ."
+      },
+      {
+        "code": "def fibonacci(n):\n    if n <= 0:\n        return 0\n    elif n == 1:\n        return 1\n    else:\n        return fibonacci(n-1) + fibonacci(n-2)",
+        "provided_docstring": "Find the nth Fibonacci number.",
+        "generated_docstring": "Return the Fibonacci number of n - 1s ."
+      },
+      {
+        "code": "def sum_of_digits(n):\n    total = 0\n    while n > 0:\n        total += n % 10\n        n //= 10\n    return total",
+        "provided_docstring": "Compute the sum of digits of a number n.",
+        "generated_docstring": "Return the sum of digits of n"
+      },
+      {
+        "code": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5)+1):\n        if n % i == 0:\n            return False\n    return True",
+        "provided_docstring": "Determine if n is a prime number.",
+        "generated_docstring": "Check if n is a prime number"
+      },
+      {
+        "code": "def reverse_string(s):\n    return s[::-1]",
+        "provided_docstring": "Return the reversed version of the input string.",
+        "generated_docstring": "Reverse a string"
+      }
+    ]
+  }
+  
